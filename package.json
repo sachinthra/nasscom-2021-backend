@@ -1,0 +1,26 @@
+{
+  "name": "vulnerable-backend",
+  "version": "1.0.0",
+  "description": "1. run ./lite/orm_mange.py\r 1. run ./lite/mange.py\r 1.",
+  "main": "./lite/app.py",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "python ./lite/app/py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinthra/nasscom-2021-backend.git"
+  },
+  "keywords": [
+    "Python",
+    "Flask"
+  ],
+  "author": "Sachinthra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachinthra/nasscom-2021-backend/issues"
+  },
+  "homepage": "https://github.com/sachinthra/nasscom-2021-backend#readme"
+}

